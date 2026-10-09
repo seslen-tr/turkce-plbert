@@ -14,7 +14,7 @@ import tempfile
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parents[1]
-DEPO = os.environ.get("TURKCE_PLBERT_HF", "mveyseldelibas/turkce-plbert")
+DEPO = os.environ.get("TURKCE_PLBERT_HF", "seslen-tr/turkce-plbert")
 DOSYALAR = {'model/step_150000.t7': 'step_150000.t7', 'model/config.yml': 'config.yml'}            # yerel yol (proje köküne göre) → depodaki yol
 
 

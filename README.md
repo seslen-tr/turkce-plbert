@@ -13,7 +13,7 @@ gibi ses sentezi modellerinde vurgu, tonlama ve ritmi besler. Hazır çok dilli 
 | Mimari | ALBERT; 12 paylaşımlı katman, gizli boyut 768. Çok dilli PL-BERT ile aynı, StyleTTS2'ye doğrudan takılır |
 | Başlangıç | [papercup-ai/multilingual-pl-bert](https://huggingface.co/papercup-ai/multilingual-pl-bert), step_1100000 (MIT). Yalnız kodlayıcı alındı, iki başlık sıfırdan |
 | Veri | Türkçe Vikipedi (20231101.tr), yaklaşık 800 bin paragraf, 300 milyon ses. Yabancı sözcük içeren paragraflar ayıklandı |
-| Okunuş | [turkce-vurgu](../turkce-vurgu) G2P'si, **vurgu işaretli** (ˈ). Ses modeli de aynı okunuşu görür |
+| Okunuş | [turkce-vurgu](https://github.com/seslen-tr/turkce-vurgu) G2P'si, **vurgu işaretli** (ˈ). Ses modeli de aynı okunuşu görür |
 | Sözcük parçalayıcı | [dbmdz/bert-base-turkish-cased](https://huggingface.co/dbmdz/bert-base-turkish-cased) (MIT); sözcüğün ilk parçası (eklemeli dilde ≈ kök) |
 | Görevler | Maskelenmiş ses tahmini + her sesin ait olduğu sözcüğü tahmin |
 | Eğitim | 150.000 adım, batch 32, fp16, tek RTX 4090 (~9 saat). Öğrenme oranı 1e-4, ısınma + kosinüs |
