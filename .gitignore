@@ -3,3 +3,5 @@ __pycache__/
 /veri/
 /model/
 /PL-BERT/
+dist/
+build/
