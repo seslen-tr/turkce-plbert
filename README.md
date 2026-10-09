@@ -47,13 +47,16 @@ taşar: sözcük başlığı yaklaşık 19 bin sınıflıdır.
 
 ## Ölçüler
 
-Doğrulama, ayrılmış %1 veride yapıldı. İlk sürüm (eski vurgu kurallarıyla) 80 bininci adımda
-şu değerlere ulaştı; ikinci sürümün sonuçları eğitim bitince eklenecek.
+Doğrulama, ayrılmış %1 veride yapıldı (yayımlanan sürüm, vurgu işaretli okunuş, 150.000 adım; 03.10.2026).
 
-| Ölçü | Değer |
-|---|---|
-| Sözcük isabeti | %89,8 |
-| Maske (ses) isabeti | %45 |
+| Ölçü | 80.000. adım | 150.000. adım (yayımlanan) |
+|---|---|---|
+| Sözcük isabeti (her sesin ait olduğu sözcük) | %89,9 | **%90,6** |
+| Maske (ses) isabeti | %45,4 | **%48,2** |
+| Sözcük kaybı / ses kaybı | 0,614 / 1,735 | 0,556 / 1,635 |
+
+Ses modelindeki katkısı: Seslen'in 3. aşaması (bu model + vurgulu okunuş) 2. aşamayla (İngilizce
+çok dilli PL-BERT, vurgusuz) aynı anlaşılırlıkta (%100) ve doğallıkta (UTMOS 3,60 / 3,58).
 
 ## Lisans
 
