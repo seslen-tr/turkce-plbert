@@ -1,5 +1,7 @@
 # turkce-plbert
 
+> **English:** Turkish PL-BERT: a phoneme-level language model that feeds prosody (stress, intonation, rhythm) into TTS models such as StyleTTS2 and Kokoro. ALBERT architecture, initialized from multilingual PL-BERT and trained on ~800k Turkish Wikipedia paragraphs transcribed with stress-marked IPA (turkce-vurgu).
+
 **Türkçe PL-BERT:** okunuştan (ses dizisinden) bağlam çıkaran dil modeli. StyleTTS2 ve Kokoro
 gibi ses sentezi modellerinde vurgu, tonlama ve ritmi besler. Hazır çok dilli PL-BERT
 (papercup-ai) 15 dil biliyor ama Türkçe bilmiyor. Bu proje o boşluğu doldurur.
